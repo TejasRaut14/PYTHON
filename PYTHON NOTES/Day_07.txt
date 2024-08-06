@@ -1,0 +1,101 @@
+Modules In python:  Reuse materials we store in module 
+
+when we repeat one one program for many use then we can use modules 
+
+1] Predefined module 
+
+2] User defined module 
+
+1] file name is module name 
+
+2] created module is import in real program we can call module 
+
+alias - short naming of module
+ 
+import module as m 
+
+we can first create module1 file and write function we can operate in program
+then import module in program file and call that module file in the program
+ 
+Math Module :
+
+1]MATH.CEIL(X) -- Which should return an intergral value 
+
+x=10.5
+print(math.ceil(x))--output==11
+
+2]MATH.FABS(x)-- Return the absolute value of x 
+
+x=-10
+print(math.fabs(x))--output==10
+
+3] MATH.FACTORIAL(x)--return x factorial as an integer 
+
+x=5
+print(math.factorial(x))--output==120
+
+4]math.floor(x)--should return an intergral value--last value 
+
+x=10.5
+print(math.floor(x))--output==10
+
+5]math.fsum(iterable)--return an accurate floting point sum of value in the iterable 
+
+l=[10,20,30,40]
+print(math.sum(l))
+
+output==100.0
+
+6]math.sqrt(x))--return the squre root of x 
+
+
+
+Python Random Module:
+
+1]Python Random randit()method:
+
+ return a number between 5 and 10 (both included)
+ import random 
+ print(random.randrange(5,10))
+
+2]return number between 3(included) and 9 (not included)
+
+print(random.randrange(3,9))
+
+3]python random choice() method:
+return a random elemets from a list:
+
+i=["apple","banana","cherry"]
+
+print(random.choice(l))
+
+
+random()--return a random float number between 0 and 1 
+
+shuffle()--take a sequence and return the sequence in random order 
+
+uniform()--return a random float , number between two given paramneters
+
+
+
+ Python DateTime Module :
+ 
+ import a module named datetime to work with dates as date objects 
+ 
+ import datetime 
+ x=datetime.datetime.now()
+ print(x)
+ 
+ the date contains year ,month ,day , hours , minute , seconds, microseconds 
+ 
+ 
+(year, month , day)
+
+
+
+
+ 
+ 
+
+
+

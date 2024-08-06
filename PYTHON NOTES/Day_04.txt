@@ -1,0 +1,80 @@
+Update elements from the string :
+
+l=[10,20,30,40,50]
+
+l[0]=90
+print(l)---output-[90,20,30,40,50]
+
+
+Function for update elements from list:
+
+    1]insert():
+	
+	l=[10,20,30,40,50,60,70]
+      l.insert(0,90)==(index number,insert values)
+      print(l)
+	  
+	
+	2]append(): we to add elements after the list --attached at the end of list 
+	          
+    l=[10,20,30,40,50,60,70]
+      l.append(90)
+      print(l)
+	  
+	whn we add :
+	
+	l=[10,20,30,40,50,60,70]
+	n=[66,77]
+	l.append(n)
+	print(l)----output -[10,20,30,40,50,60,70,[66,77]]
+	  
+	3]extend():
+	 
+	l=[10,20,30,40,50,60,70]
+       n=[66,77]
+       l.extend(n)
+       print(l)--output-[10, 20, 30, 40, 50, 60, 70, 66, 77]
+	   
+List Comprehension:
+
+
+is an simple way to defined and create list based on existing list
+ l=[]
+ for a in range(1,101):
+ l.append(a)
+
+print(l)
+
+
+n=[m for m in range(1,101) ]
+print(n)
+
+
+List function :
+1]count()--
+
+l=[10,20,30,40,50,10]
+a=l.count(10)
+print(a)
+
+
+2]max(): give higher value 
+
+m=max(l)
+print(m)--higher values give 
+
+ 
+3]min(): minimum values give as output 
+
+n=min(l)
+
+4]sort(): minimum to maximum goes 
+          sorting is done in asending order 
+		  
+	l.sort
+
+5]reverse(): print in reverse order of list 
+ 
+    l.reverse
+	
+	

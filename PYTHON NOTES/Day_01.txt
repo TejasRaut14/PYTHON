@@ -1,0 +1,45 @@
+1] With the help of id( )function we can check the address of that particular value on the RAM
+ 
+2] with the help of concatataion we can add two or more strings 
+   a+ " " +b
+
+
+Variable : in the variable we can store any values 
+
+
+Operators in python :
+
+1] logical operator -- and , or , not 
+2] comparision operator -- ==,>,< ,>=, <=
+3] Membership operator -- in ,not in 
+4] Identity operator -- is, is not
+5] Bitwise operator-- AND ,OR,XOR
+
+
+
+
+Data_type :
+
+1. NUMBER 
+2. STRING
+3. LIST--we can change the content  , denote with []
+4. TUPLE --we can not change the content ,denote with ()
+5. DIRECTINARY --denote with {}
+6. SET --denote with {}
+
+2 TYPES OF DATA TYPES : 
+ 
+ 1. MUTABLE -- CAN CHANGE ITS CONTENT 
+ 2. IMMUTABLE --CAN NOT CHANGE ITS CONTENT 
+ 
+ 
+ User Input:
+ 
+ with the help of input() function we can put user values in the program 
+
+ Type-casting:
+ 
+ we can type cast because of chnaging the data-type from string to int or string to float 
+ 
+ 
+ 

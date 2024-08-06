@@ -1,0 +1,119 @@
+User Input :
+
+Using input function they can accept answer in the STRING form 
+
+Type-casting : We can change STRING form into int ,float and eval for use correctely 
+              1] a=int(input("enter the values in interger format"))
+
+              2]b=float(input("enter the values in float format"))
+			  
+			  3]c=eval(input("enter the interger and float values "))
+
+
+Conditional Statement:
+
+Key points:
+            1]IF :
+			         if[conditional expression]:
+		                    [statement to exceute]
+			2]IF-ELSE :
+			
+ 			         if[conditional expression]:
+		                    [statement to exceute]
+					else:
+					        [alternate statement to exceute]
+					
+					
+			3]IF-ELIF ELSE:
+			     
+				     if[condition 1]:
+					    [statement 1]
+					elif[condition 2]:
+					    [statement 2]
+					elif[condition 3]:
+					    [statement 3]
+					else:
+					    [statement with false condition]
+			
+		
+For loop with range:
+
+    range(5)
+         #start=0
+         #condition 0-4
+         #increment with default with one
+        0,1,2,3,4
+		
+    range(1,6)
+         #start=1
+         #condition upto 5
+         #increment
+        1,2,3,4,5
+		
+    range(1,6,2)==(start,condition,increment)
+        #start =1
+        #condition upto 5
+        #increment with 2 
+		1,3,5
+		
+for reverse condition we can strat with :
+    for i in range (10,0,-1):
+	                (start,condition,increment)
+					
+while loop:
+             #start
+			 #condition
+			 #increment/decrement
+			 
+			 i=1
+			 while i<=10:
+			 i=i+1
+
+
+STRING:
+        when we goes from left to right then string start from o 
+		when we goes from right to left then string start from -1
+
+     eg: Tejas 01234 
+	     sajaT -1-2-3-4-5
+		 
+Indexing:
+     with the help of indexing we can fetch the value of one character from the string 
+	 
+slicing:
+     with the help of slicing we can fetch more chracter from the string 
+	
+	
+	slicing formuala :print(w[0:7])
+	                          (start,condition)
+
+    print(w[2]) --give character of the 2 position 
+	print(w[0:7])--give charcter start from 0 and upto 6 
+	print(w[0::2])--give character from 0 to end of the string with the 2 increment in string 
+	
+	
+	
+Length function : len() we can check the length of the string 
+
+Python string Function :
+                         1] lower()--convert  string into lower case 
+						 2] upper()--convert string into upper case 
+						 3] title()--first letter of each word convert to upper case 
+						 4] capitalize()--first letter of each new line convert to capital letter 
+						 
+						 
+						 eg: 1] w ="HELLO"
+						        n=w.lower()
+								print(n)
+						    
+							2]v=w.upper()   
+                               print(v)
+
+                            3] t=w.title()   
+                                print(t)
+
+
+                             4]c=w.capitalize()
+                                print(c)
+
+

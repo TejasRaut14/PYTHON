@@ -1,0 +1,97 @@
+Object oriented programming:
+
+Class and object:
+
+class DemoClass:
+    a=10
+	
+demo_object=DemoClass()
+
+print(demo_object.a)
+
+
+function used in class:
+
+    def sumvalue(self):
+        print(20+30)
+		
+	demo_object.sumvalue();
+	
+	
+Method and constructor:
+
+method is execute when it is called 
+
+constructor is automatically execute when object is creted by the class
+
+
+Inheritance:
+
+
+class A properties are shift to the class B that is called inheritance
+
+All methods of Class A are called at the class B.
+
+class A:
+    def displayA(self):
+        print("tejas a")
+
+class B(A):
+    def displayB(self):
+        print("tejas b")
+
+obj=B()
+obj.displayA()
+obj.displayB()
+
+
+
+Encapsulation:(Getter and setter method)
+
+
+1]getter  2]setter
+
+
+Encapsualtion: an object varaible shuld not always be directly accesible
+
+
+
+Polymorphism :
+
+Means same function name (but differnet signature) being uses for differnt types
+
+1]overloading and overrriding
+
+
+Method overloading and method overrriding:
+
+Method overloading :
+
+1] worked in the same methods names and differnet aruguments
+
+2] aruguments differnet will be based on the number of aruguments and types of aruguments
+
+
+Method overrriding:
+
+1] is the method having the same name with same aruguments
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+
+

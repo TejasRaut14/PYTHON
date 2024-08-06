@@ -1,0 +1,93 @@
+STRING FUNCTION:
+
+
+find()--find character in the string with and print output as a index of that character
+     --when character is not present in the string then output is written as -1	 
+	 
+	eg: w="welcome"
+        print(w.find('o'))
+		 
+index()--same as find() function 
+       --when charcter is not presentin the string then error are occured
+	   
+isalpha()--when all character in the string is alphabet then function returns True as output
+
+         Eg: w="welcome123"
+		     print(w.isalpha())---output-false
+
+
+
+isdigit()--when digit is present in the string then function returns True 
+isalnum()--combination of alphabet and digit 
+
+
+Function in python : both function works on the ASCII values 
+                     1] chr()--convert interger value into character with the help of ASCII value
+          
+		            Eg: #convert interger 65 to ASCII character ("A")
+					     y=chr(65)
+
+					 
+                     2] ord()--convert character value into intergerwith thw ASCII value 
+					 
+					    #Convert ASCII unicode character "A" to 65
+						y=ord('A')
+
+Python String format() method:
+
+1] named index:
+   txt1="welcome to {fname}{lname}".format(fname="Wscube",lname="tech")
+
+2] numbered index:
+    txt2="welcome to {0} {1}".format("wscode","tech")
+	
+3] Empty placeholder:
+   txt3="welcome to {} {}".format("wscube","tech")
+   
+   
+   
+ LIST IN PYTHON: is an mutable --change its content any time 
+ 
+ --denoted with []
+ 
+i=[1,2,3,4,5,6,7,8,9]
+print(i[0: :2])
+       [start:condition:increment/decrement]
+	   
+	   
+	   
+List Iteration: Separate the list with each items 
+
+l=[10,20,30,40,50,60,70]
+t=len(l)
+for a in range(t):
+    print(l[a])
+	
+	
+for reverse order:
+
+l=[10,20,30,40,50,60,70]
+t=len(l)
+for a in range(t-1,-1,-1):
+    print(l[a])
+	
+
+List FUNCTION:
+
+for delete we can use --del,pop(),remove(),clear()
+
+1]Del --l=[10,20,30,40,50,60,70]
+            del l[2]
+            print(l)
+			
+			do not return deleted item 
+			
+2]pop()--return deleted item 
+         l.pop(2)
+		 for return the deleted item we can use print(l.pop(2))
+
+3]remove()-- remove actual value from the list 
+             l.remove(60)
+			 
+4]clear()--for clear total list we can use clear() function 
+            l.clear()

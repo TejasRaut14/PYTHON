@@ -1,0 +1,46 @@
+Python errors and built in exceptions:
+
+The errors can be brodaly classified into two classes:
+
+1] syntax errors : can not handle error we can fix it in program 
+
+a=10
+b=20
+
+if a==b
+   print("yes")
+else
+   print("No")
+   
+   
+
+2] logical errors : can handle error 
+
+print(1/10) #zero division error 
+l=[10,20,30,40]
+print(l[6]) index error 
+
+
+Python Exception handling:
+
+1] zero division error 
+
+2] name error
+
+3] Type error
+
+4] value error 
+
+5] index error
+
+6] key error
+
+7] module not found method
+
+8] import error
+
+
+
+
+
+

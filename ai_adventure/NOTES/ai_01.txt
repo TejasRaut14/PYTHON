@@ -1,0 +1,28 @@
+AI ADVENTURE_01:
+
+Expressions:
+Expressions consist of values such as 2 and operators such as + 
+and they can always evaluate that is, reduce down to a single value.
+
+1]Addition 
+2]Substraction
+3]Multiplication
+4]True Division
+5]Floor Divsion : a//b "Give output as an remove fractional part"
+6]Modulus 
+7]Exponential 
+
+
+Data Types:A data type is a category for values, and every value belongs to exactly one data type
+
+
+1] Intergers - value that are whole numbers
+
+2] Float - Number with decimal point 
+
+3] String - Sequence of an characters and with " " 
+
+String Concatentaion:
+
+'A' + 'Adventure'
+  

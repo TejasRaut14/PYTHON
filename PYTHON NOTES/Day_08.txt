@@ -1,0 +1,65 @@
+Pickle module in python :
+
+1]module implements a fundamnetal but powerful algorithms for serialzing and de-serialzing a python object struture 
+
+you can pickle objects with the follwing data types:
+
+Booleans , intergers , floats , complex numbers , strings , tuples , lists , set and dictionary 
+
+To use pickle start by impoerting it in python .
+
+pickle has two  main  methods  1] dump--dump an object to a fie 
+                               2] load-- loads an object from a file objects 
+							   
+							   
+pickling with dump():
+
+pickling data is done with dump() function
+it accepts data and a file objetcs 
+dump() function then serilazize the data and writes it in the file 
+
+dump(obj,file)
+
+
+Unpickling with load():
+
+The load function takes a file object reconstruct the objects from pickle representaion and retturn it
+
+
+JSON IN PYTHON :
+
+   1]javascript object notation
+   2]mainly used for storing and transfering data between the broweser and server
+   3]JSON is text written with javascript object notation
+   4]python to support JSON with a built in package called JSON
+   
+   import json
+   
+   Python Json:
+   
+   JSON support mainly 6 data types:
+   
+   string 
+   number
+   boolean
+   null
+   object
+   array
+   
+   converting python objects to JSOn:
+   
+   blog={'URL':'www.goggle.com','name':'tejas'}
+   
+   to_json=json.dumps(blog)
+   
+Converting JSON to python Objects:
+
+Writting and Reading JSON file:
+
+Reading and writting JSON file:
+
+import json 
+file=open("posts.json","r")
+finaldata=file.read()
+finaldata=json.loads(x)
+   

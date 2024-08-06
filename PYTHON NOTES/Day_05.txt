@@ -1,0 +1,128 @@
+Iterate over 2+ lists at the same time (Zip function):
+
+l=[10,20,40,50]
+l1=[66,55,44,88]
+
+for a,b in zip(l,l1):
+    print(a,b)
+	
+	when first list contain 4 element but second list contain 5 element at output they print only 4 elemets of second list 
+	
+	condition: 
+	            1] both the list have same number of elements
+				
+				
+		logic to print all list in one : t=len(l)
+		
+		for h in range (t):
+		print(l[h],l1[h])
+		
+		
+	Program to convert string into a list:
+	
+	split()--split the string with the spaces in the string and store into the list 
+	
+	n=input("enter the values")
+
+    l=n.split()
+    print(l)
+	
+	output :
+	
+	enter the values tejas vilas raut
+    ['tejas', 'vilas', 'raut']
+	
+	string to list conversation:
+	
+	l=[]
+for a in range (1,4):
+    n=input("enter the values"+str(a)+":-")
+    l.append(n)
+print(l)
+
+
+output:
+
+enter the values1:-red
+enter the values2:-blue
+enter the values3:-pink
+['red', 'blue', 'pink']
+
+Implement a stack and queue using a list Data Type:
+
+Stack in python:
+
+--stack is a linear data structure 
+--store items in LIFO AND FILO manner 
+
+
+stack operation:
+
+1.push=>inserting an element
+2.pop=>deletion an elements
+3.Peek=>display the last element
+4.Display=>display list 
+
+
+Que :
+
+1] is a linear data structure 
+2] store items in FIFO manner 
+
+operation:
+
+   1] enqueue: adds items to the queue
+   2] dequeue: remove items from the queue
+   3] front: get the front from the queue
+   4] Rear: get the item from the queue
+   
+   
+Dictionary: 1] Mixing of unorderd data type 
+            2] key:value pairs
+			3] {}
+			4] Mutable 
+			
+d = {
+    'name': 'Tejas',
+    'fee': '9000',
+    'duration': '2 months'
+}
+
+n = d['fee']
+print(n)
+   
+   
+Dictionary functions:
+                       1] get()--fetch the values --n=d.get('name')
+					   2] keys()---for a in d.keys()--fetch all the keys in the dictionary 
+					   3] values()--for a in d.values()--fetch the values from the dictionary
+					   4] items()--for a,b in d.items()--get values of keys and values both 
+					   
+		
+		
+for deletion items in dictionary we can use "del" keyword and pop():
+
+del --work on the key 
+pop()--delete item and also returns that items 
+
+del d['fees']
+d.pop('duration')
+
+dict()--d=dict(name='python',fees=8000)
+update()--d.update({'fees':10000})
+clear()--clear the dictionary
+
+
+
+Insert elements in dictionary:
+d["course"]="python"
+
+update elements in dictionary:
+d["name"]="vivek"
+
+
+
+Python nested dictionary : putting a dictionary inside another dictionary
+
+
+
